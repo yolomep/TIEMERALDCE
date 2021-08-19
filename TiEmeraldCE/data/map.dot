@@ -1,0 +1,173 @@
+graph {
+
+    node [shape=box]
+
+	
+    { rank=same; oldale_town_n3; route_102_n4; petalburg_city_n7; route_104a_n8}
+    { rank=same; dewford_town_n13; granite_cave_n55; route_107to8_n19}
+	{ rank=same; fallarbor_town_n58; route_113_n26; fortree_city_n56}
+	{ rank=same; route_101_n2; slateport_city_n42; route_132to134_n41; pacifidlog_town_n46; route_129to131_n40}
+	{ rank=same; verdanturf_town_n17; route_117_n28; mauville_city_n51; route_118a_n29; route_118b_n30; route_123_n35}
+	
+	pokemon_league_champion_n65 [pos="16,6!"]
+	route_104a_n8 
+	mt_pyre_n47 [pos="11,0!"]
+	pokemon_leaguea_n61 [pos="16,-2!"]
+	route_114a_n9 [pos="-8,6!"]
+	fallarbor_town_n58
+	pokemon_leagued_n64 [pos="16,4!"]
+	mossdeep_city_n49 [pos="15,2!"]
+	pacifidlog_town_n46
+	dewford_town_n13 [pos="-8,-11!"]
+	granite_cave_n55 [pos="-10,-11!"]
+	route_132to134_n41 [pos="6,-8!"]
+	route_119_n31 [pos="6,2!"]
+	mt_chimney_n48 [pos="-2,6!"]
+	route_101_n2
+	evergrande_city_n59 [pos="16,-6!"]
+	little_root_n1 [pos="-4,-9!"]
+	slateport_city_n42 [pos="2,-8!"]
+	fiery_path_n57 [pos="0,4!"] 
+	oldale_town_n3 [pos="-4,-7!"]
+	pokemon_leaguec_n63 [pos="17,2!"]
+	route_128_n39 [pos="14,-6!"]
+	route_102_n4
+	victory_road_n44 [pos="16,-4!"]
+	route_103b_n6 [pos="0,-7!"]
+	route_132to134_n41
+	route_114b_n20 [pos="-8,8!"]
+	slateport_city_n42
+	route_115_n27 [pos="-10,3!"]
+	route_110b_n23 [pos="3,-4!"]
+	rusturf_tunnel_n18 [pos="-6,0!"]
+	route_129to131_n40
+	route_121_n33 [pos="9,3!"]
+	dewford_town_n13
+	fallarbor_town_n58 [pos="-6,8!"]
+	route_116_n16 [pos="-8,0!"]
+	jagged_path_n54 [pos="-2,4!"]
+	ancient_tomb_n60 [pos="10,5!"]
+	route_127_n38 [pos="15,-1!"]
+	verdanturf_town_n17 [pos="-6,-2!"]
+	lavaridge_town_n53 [pos="-3,2!"]
+	route_104a_n8 [pos="-10,-7!"]
+	fortree_city_n56 [pos="7,8!"]
+	petalburg_woods_n12 [pos="-10,-5!"]
+	route_106_n11 [pos="-10,-10!"]
+	
+	
+	route_107to8_n19 [pos="-5,-11!"]
+	route_102_n4 [pos="-6,-7!"]
+	route_129to131_n40 [pos="13,-8!"]
+	route_120_n32 [pos="8,5!"]
+	lilycove_city_n52 [pos="11,3!"]
+	meteor_falls_n50 [pos="-9,4!"]
+	oldale_town_n3
+	petalburg_city_n7 [pos="-8,-7!"]
+	route_122 [pos="9,0!"]
+	route_109_n21 [pos="2,-10!"]
+	route_101_n2 [pos="-4,-8!"]
+	route_123_n35 [pos="8,-2!"]
+	petalburg_city_n7
+	pokemon_leagueb_n62 [pos="16,0!"]
+	granite_cave_n55
+	rustboro_city_n15 [pos="-10,0!"]
+	route_111_n24 [pos="2,3!"]
+	route_124_n36 [pos="13,3!"]
+	route_117_n28 [pos="-2,-2!"]
+	route_113_n26 [pos="-3,8!"]
+	sootopolis_city_n43 [pos="11,-2!"]
+	route_112_n25 [pos="0,2!"]
+	route_104b_n14 [pos="-10,-2!"]
+	route_113_n26
+	fortree_city_n56 
+	route_110a_n22 [pos="2,-6!"]
+	route_105_n10 [pos="-10,-9!"]
+	pacifidlog_town_n46 [pos="10,-8!"]
+	route_126_n37 [pos="13,-1!"]
+	route_103a_n5 [pos="-2,-7!"]
+	route_107to8_n19
+	sky_pillar_n45 [pos="12,-6!"]
+	cave_of_origin_n66 [pos="10,-3!"]
+	
+	mauville_city_n51 [pos="2,-2!"]
+	route_118a_n29 [pos="4,-2!"]
+	route_118b_n30 [pos="6,-2!"]
+	
+	petalburg_city_n7 -- route_104a_n8
+	route_103a_n5 -- route_103b_n6
+    route_103b_n6 -- route_110a_n22
+    route_104a_n8 -- petalburg_woods_n12
+    petalburg_woods_n12 -- route_104b_n14
+    route_104b_n14 -- rustboro_city_n15
+	route_102_n4 -- petalburg_city_n7 
+	little_root_n1 -- route_101_n2 
+    route_101_n2 -- oldale_town_n3
+    oldale_town_n3 -- route_102_n4
+    oldale_town_n3 -- route_103a_n5
+    route_105_n10 -- route_104a_n8
+    route_106_n11 -- route_105_n10
+    route_106_n11 -- dewford_town_n13
+    dewford_town_n13 -- granite_cave_n55
+	route_107to8_n19 -- dewford_town_n13
+	route_107to8_n19 -- route_109_n21
+	rustboro_city_n15 -- route_115_n27
+	route_115_n27 -- meteor_falls_n50
+	meteor_falls_n50 -- route_114a_n9
+	route_114a_n9 -- route_114b_n20
+	route_114b_n20 -- fallarbor_town_n58
+	fallarbor_town_n58 -- route_113_n26
+	route_109_n21 -- slateport_city_n42
+	slateport_city_n42 -- route_110a_n22
+	slateport_city_n42 -- route_110b_n23
+	route_110b_n23 -- mauville_city_n51
+	route_110a_n22 -- mauville_city_n51
+	
+	route_116_n16 -- rusturf_tunnel_n18
+	rusturf_tunnel_n18 -- verdanturf_town_n17
+	verdanturf_town_n17 -- route_117_n28
+	route_117_n28 -- mauville_city_n51
+	mauville_city_n51 -- route_118a_n29
+	route_118a_n29 -- route_118b_n30
+	
+	route_111_n24 -- route_112_n25
+	route_111_n24 -- mauville_city_n51
+	route_112_n25 -- fiery_path_n57
+	fiery_path_n57 -- jagged_path_n54
+	jagged_path_n54 -- mt_chimney_n48
+	route_112_n25 -- lavaridge_town_n53
+	route_113_n26 -- route_111_n24
+	
+	slateport_city_n42 -- route_132to134_n41
+	route_118b_n30 -- route_119_n31
+	route_118b_n30 -- route_123_n35
+	route_119_n31 -- fortree_city_n56
+	route_123_n35 -- route_122
+	route_122 -- mt_pyre_n47
+	fortree_city_n56 -- route_120_n32
+	route_120_n32 -- ancient_tomb_n60
+	route_120_n32 -- route_121_n33
+	route_121_n33 -- lilycove_city_n52
+	
+	route_132to134_n41 -- pacifidlog_town_n46
+	pacifidlog_town_n46 -- route_129to131_n40
+	route_129to131_n40 -- route_128_n39
+	route_128_n39 -- evergrande_city_n59
+	evergrande_city_n59 -- victory_road_n44
+	victory_road_n44 -- pokemon_leaguea_n61
+	pokemon_leaguea_n61 -- pokemon_leagueb_n62
+	pokemon_leagueb_n62 -- pokemon_leaguec_n63
+	pokemon_leaguec_n63 -- pokemon_leagued_n64
+	pokemon_leagued_n64 -- pokemon_league_champion_n65
+	route_128_n39 -- route_127_n38
+	route_127_n38 -- mossdeep_city_n49
+	mossdeep_city_n49 -- route_124_n36
+	route_124_n36 -- route_126_n37
+	route_126_n37 -- route_127_n38
+	route_126_n37 -- sootopolis_city_n43
+	sootopolis_city_n43 -- cave_of_origin_n66
+	sky_pillar_n45 -- route_129to131_n40
+	route_116_n16 -- rustboro_city_n15
+	route_121_n33 -- route_122
+	lilycove_city_n52 -- route_124_n36
+}
